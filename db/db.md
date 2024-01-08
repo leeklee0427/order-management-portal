@@ -51,7 +51,7 @@ To deploy the database on the Oracle Cloud Virtural Machine, follow these steps:
    ```
    mysql> source /var/www/html/order-management-portal/db/load.sql
    ```
-   "ERROR 3948 (42000): Loading local data is disabled; this must be enabled on both the client and server sides" might pop up, try:
+   ```"ERROR 3948 (42000): Loading local data is disabled; this must be enabled on both the client and server sides"``` might pop up, try:
    ```
    mysql> show global variables like 'local_infile';
    ```
