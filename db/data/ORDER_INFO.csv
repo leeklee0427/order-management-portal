@@ -1,0 +1,26 @@
+Order_ID,Order_User_ID,Order_Employee_ID,Order_Time,Delivery_Zip_Code,Delivery_Address,Last_Four_Digits
+1,23,2,2019-04-10,91733,3 Mere Avenue Droylsden,8224
+2,21,5,2020-05-20,11803,Hill Brow 11 Lead Lane,9897
+3,4,6,2017-10-19,92831,6 Skelton Grove Manchester,1959
+4,7,9,2019-08-20,06614,8 Dudley Court Bramcote,1863
+5,2,1,2020-01-08,20707,2 New Cottages Northbourne Road,8987
+6,4,5,2019-11-20,37072,14 Seven Acre Close Bishops Tachbrook,1959
+7,5,10,2021-11-17,06851,13 Kings Court King Street Spennymoor,0619
+8,9,12,2019-10-23,30080,34 Oast Road Oxted,3086
+9,10,16,2020-09-25,12553,6 Philips Road Rayne,8532
+10,12,17,2019-10-24,34698,69B Mill Road Leighton Buzzard,5026
+11,17,2,2020-12-17,43081,3 Bowgrove Road Beaminster,4929
+12,25,12,2017-09-12,46804,Flat 38 Cutter House 1 Admiralty Avenue,4644
+13,24,11,2018-04-29,60061,35 Brookville Crescent Newcastle Upon Tyne,4048
+14,19,14,2019-09-17,13126,11 Old Priory Gardens Wangford,3762
+15,6,14,2021-10-10,29461,1 Woodlee Cottages Virginia Water,5184
+16,16,19,2018-05-10,92236,6 Hillside Terrace Fordington,3399
+17,7,20,2019-04-18,79106,7 St Oswalds Crescent Billingham,1863
+18,9,9,2019-07-18,24401,13 Walker Avenue Stourbridge,3086
+19,9,8,2019-08-21,32068,17 Himbleton Close Redditch,3086
+20,5,3,2021-04-06,44406,3 Lynda Grove Ossett,0619
+21,15,5,2019-08-18,28031,7 Mill Square Padstow,3820
+22,12,11,2019-04-27,53186,Tynyraelgerth Llanberis,1959
+23,3,16,2022-03-06,40207,30 Seacombe Avenue North Shields,3820
+24,4,10,2018-06-07,48146,23 Kendall Court Southdowns Park Haywards Heath,1959
+25,12,14,2017-04-07,33823,22 Oakwood Road Maidstone,3820
