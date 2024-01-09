@@ -1,4 +1,4 @@
-# Deployment on Oracle Cloud
+# Deployments on Oracle Cloud
 This document serves as a comprehensive guide to deploying a MySQL database service on the Oracle Cloud platform. The deployment includes setting up an interactive web interface using Apache/HTTPd and PHP designed to facilitate essential database operations, such as INSERT, DELETE, UPDATE, and SELECT.  
 
 Sample scripts in this document comes from [Order Management Portal](https://github.com/leeklee0427/order-management-portal).
