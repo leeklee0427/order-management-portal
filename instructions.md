@@ -15,6 +15,19 @@ You can interact with the database using the following link: [http://150.136.153
 ## Environment
 The operating system (image) deployed in the Oracle Cloud environment is CentOS-7-2022.04.26-0.
 
+Using ```hostnamectl``` command on CentOS:
+```[root@oraclevm4 order-management-portal]# hostnamectl
+   Static hostname: oraclevm4
+         Icon name: computer-vm
+           Chassis: vm
+           ...
+    Virtualization: kvm
+  Operating System: CentOS Linux 7 (Core)
+       CPE OS Name: cpe:/o:centos:centos:7
+            Kernel: Linux 3.10.0-1160.62.1.el7.x86_64
+      Architecture: x86-64
+```
+
 
 ## Outlines
 1. [Apache/HTTPd](#apache/httpd)
@@ -116,6 +129,20 @@ Login as root user:
 If ```Authentication plugin 'caching_sha2_password' cannot be loaded``` pops up, try:
 ```
 mysql> ALTER USER 'username'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password';
+```
+
+Adding the below chunk into ```vi /etc/my.cnf```:
+```
+[client]
+default-character-set=utf8
+
+[mysql]
+default-character-set=utf8
+
+[mysqld]
+collation-server = utf8_unicode_ci
+character-set-server = utf8
+default_authentication_plugin = mysql_native_password
 ```
 
 
