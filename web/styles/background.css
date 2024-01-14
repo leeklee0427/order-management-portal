@@ -1,0 +1,32 @@
+body {
+    text-align: center;
+    background-color: #FAF5F5;
+}
+
+h1 {
+    margin-bottom: 0;
+}
+
+.button-container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.button {
+    margin-right: 10px;
+}
+
+form {
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+
+table {
+    width: 65%;
+    margin: auto;
+}
+
+td {
+    padding: 5px;
+}
