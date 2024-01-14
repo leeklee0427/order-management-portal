@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Account Information</title>
+    <link rel="stylesheet" type="text/css" href="./styles/background.css">
+</head>
+
+<body>
+	<div align="center">
+        <h1>Account Information</h1>
+        <div class="button-container">
+            <input class="button" type="button" onclick="location.href='customer.html';" value="Back" />
+            <input class="button" type="button" onclick="location.href='index.html';" value="Home" />
+        </div>
+    </div>
+
+	<div style="display: block; margin: auto; width: 50%; background: #FAF5F5;">
+		<center>
+			<h3>Please enter username and email_address (optional):</h3>
+		</center>
+		<form action="customer_account_info.php" method="post">
+			<center>
+				<table>    
+					<tr>
+						<td align="right"><label for="username">Username</label></td>
+						<td align="left"><input type="text" name="username" id="username" required></td>
+					</tr>
+					<tr>
+						<td align="right"><label for="email">Email</label></td>
+						<td align="left"><input type="text" name="email" id="email"></td>
+					</tr>
+					<tr>
+						<td colspan="2" align="center">
+							<input class="button" name="submit" type="submit" value="Submit">
+						</td>
+					</tr>
+				</table>
+			</center>
+		</form>
+	</div>
+</body>
+</html>
