@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Check Orders</title>
+    <link rel="stylesheet" type="text/css" href="./styles/background.css" />
+</head>
+
+<body>
+    <div align="center">
+        <h1>Check Orders</h1>
+        <div class="button-container">
+            <input class="button" type="button" onclick="location.href='customer.html';" value="Back" />
+            <input class="button" type="button" onclick="location.href='index.html';" value="Home" />
+        </div>
+    </div>
+
+    <div>
+        <center>
+            <h3>Please enter your username (required) and order ID (optional):</h3>
+        </center>
+        <form action="customer_check_orders.php" method="post">
+            <center>
+                <table>
+                    <tr>
+                        <td align="right"><label for="username">Username</label></td>
+                        <td align="left"><input type="text" name="username" id="username" required></td>
+                    </tr>
+                    <tr>
+                        <td align="right"><label for="orderid">Order ID</label></td>
+                        <td align="left"><input type="number" name="orderid" id="orderid" min="0"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" align="center">
+                            <input class="button" name="submit" type="submit" value="Submit">
+                        </td>
+                    </tr>
+                </table>
+            </center>
+        </form>
+    </div>
+</body>
+
+</html>
